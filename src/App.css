@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:ital@1&display=swap');
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  width:100vw;
+}
+.hr_dsp_con{
+  width:100%;
+  border-left: 0.8px black solid;
+}
+.hr_ls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Adjust as needed */
+  height: 84px; /* Adjust as needed */
+  overflow: hidden;
+  background-color: #ACBCFF;
+  border-bottom: 1px inset white;
+  padding: 3px 0px;
+}
+.home_ctn{
+  background-color: #213555;
+  width: 100vw;
+  height: 100vh;
+  margin:0 auto;
+  
+}
+.hm_head{
+  width:100%;
+  height :64px;
+  background-color: #3E6D9C;
+  display :flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  z-index: 1;
+  color: white;
+}
+.left_h{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.img_ctn{
+  width:80px;
+  height: 100%;
+  background-color: black;
+  border-radius: 90px;
+  overflow: hidden;
+  background-color: black;
+  border: 1px white solid;
+  position:relative;
+}
+.img_ctn>img{
+  max-width:none;
+  max-height: none;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%) scale(0.13)
+}
+.left_h>span{
+  color:black;
+  font-size: 19px;
+  margin-left: 5px;
+}
+
+.one_st_sec{
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  filter: 10px;
+  position:relative;
+  margin-bottom: 10px;
+}
+.hr_name{
+  font-family: 'Ubuntu',sans-serif;
+  position:absolute;
+  background-color: #E76161;
+  right: 3%;
+  bottom:4px;
+  padding: 5px 8px;
+  border-radius: 0px 10px 0px 10px;
+  width: 100px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.blur_ele{
+      background-size: cover;
+      filter: blur(2px);
+      position: absolute;
+      top:10px;
+      right:5px;
+      z-index: 0;
+      height: 100%;
+      width:100%
+}
+.main_ctn>header{
+  width:100%;
+  height:46px;
+  background-color: #8696FE;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 4px;
+  position: sticky;
+  top:0;
+  z-index:1
+}
+.main_ctn{
+  position: relative;
+   margin: 0 auto;
+}
+.main_ctn> header>span{
+  font-family: 'Ubuntu',sans-serif;
+}
+.hero_img_con{
+  position: relative;
+  width:100%;
+}
+
+.hero_img{
+  width:80%;
+  height:auto;
+  border-radius: 14px;
+}
+.role{
+  width:100px;
+  background-color: ;
+  position:relative ;
+  z-index: 0;
+  color: red;
+  font-weight: bold;
+  right:3px;
+  border-radius:7px;
+  text-align:center;
+  padding: 0px 5px;
+  font-size: 13px;
+  font-weight: 200px;
+  
+}
+.role>span{
+ color: blue;
+ font-size: 15px;
+ font-weight: bold;
+}
+.cost_row{
+  width:170px;
+  height:auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-color:white ;
+  font-size: 15px;
+  color: color;
+  opacity: 0.85;
+  padding: 2.7px 5px;
+  border-radius:10px;
+  left:5px;
+  background-color: #F5F5F5;
+}
+.cost_row img{
+  width:20px;
+  height:20px;
+}
+.cost_role_ctn{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+.two_nd_sec{
+  width:100%;
+  height:500px;
+  padding: 7px;
+  height: auto;
+  background-color: #F5F5F5;
+}
+.guideline{
+  margin-top:18px;
+  height: auto;
+  border-bottom: 0.6px black solid;
+  
+}
+.item_row{
+  width:94%;
+  height:50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.item_row>img{
+ width:45px;
+ height:45px;
+}
+@media(min-width:410px){
+  .hero_img_con>span{
+    font-size: 30px;
+  }
+  .cost_row{
+    font-size: 18px;
+  }
+  .cost_row img{
+  width:26px;
+  height:26px;
+}
+.home_ctn{
+  width:100%;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+ .main_ctn{
+   width:80%;
+ }
+ 
+ .main_ctn>header{
+   position: fixed;
+   top:0;
+   left: 0;
+   right:0;
+   width:100vw;
+ }
+ .item_row{
+  width:80%
+}
+.item_row>img{
+ width:70px;
+ height:70px;
+ }
+}
+
+p{
+ font-weight: bold;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
+}
+h1{
+  background-color: ;
+  color:#FC4F00;
+}
+h2{
+ color:#27E1C1;
+ font-weight: bold;
+}

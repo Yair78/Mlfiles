@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//:Yair78.github.io/Mlfiles/static/css/main.2a4db553.css",
+    "main.js": "/https//:Yair78.github.io/Mlfiles/static/js/main.db8dff92.js",
+    "static/js/787.66b8e1f1.chunk.js": "/https//:Yair78.github.io/Mlfiles/static/js/787.66b8e1f1.chunk.js",
+    "index.html": "/https//:Yair78.github.io/Mlfiles/index.html",
+    "main.2a4db553.css.map": "/https//:Yair78.github.io/Mlfiles/static/css/main.2a4db553.css.map",
+    "main.db8dff92.js.map": "/https//:Yair78.github.io/Mlfiles/static/js/main.db8dff92.js.map",
+    "787.66b8e1f1.chunk.js.map": "/https//:Yair78.github.io/Mlfiles/static/js/787.66b8e1f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a4db553.css",
+    "static/js/main.db8dff92.js"
+  ]
+}
